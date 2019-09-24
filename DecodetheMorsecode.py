@@ -31,7 +31,21 @@ def decodeMorse(morse_code):
 #             msg += " "
     
 #     return msg
-# ==========================================================================
+
+# ================================Advanced Test==========================================
+# def decodeMorse(morseCode):
+#     # ToDo: Accept dots, dashes and spaces, return human-readable message
+#     # return morseCode.replace('.', MORSE_CODE['.']).replace('-', MORSE_CODE['-']).replace(' ', '')
+#     morseCode = (morseCode.strip(" ").replace("   "," * ")).split(" ")
+
+#     result = ""
+
+#     for i in morseCode:
+#         if i != "*":
+#             result += MORSE_CODE[i]
+#         else:
+#             result += " "
+#     return result
 
 # 測試
 # def test_and_print(got, expected):
